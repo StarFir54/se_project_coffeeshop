@@ -105,7 +105,51 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="form-name">Name *</label>
+              <input
+                class="form__input"
+                type="text"
+                id="form-name"
+                placeholder="Name Surname"
+                required
+              />
+              <label class="form__label" for="form-guestcount"
+                >Number of guests *</label
+              >
+              <input
+                class="form__input"
+                type="number"
+                id="form-guestcount"
+                placeholder="1-8"
+                required
+              />
+              <label class="form__label" for="form-date">Date & time *</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="form-date"
+                required
+              />
+              <label class="form__label" for="form-email">Your email *</label>
+              <input
+                class="form__input"
+                type="email"
+                id="form-email"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="form__button" type="submit">Book a table</button>
+              <label class="form__label">
+                <input class="form__checkbox" type="checkbox" required />
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
