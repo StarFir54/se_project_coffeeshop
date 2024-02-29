@@ -13,4 +13,9 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Website could be improved in a multitude of ways:
+
+- Viewport responsive positioning on all elements
+- Smoother background transitions
+- Actual sitemap/Multiple pages
+- Imbed content could be updated with newer/more recent content
