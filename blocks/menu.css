@@ -1,5 +1,5 @@
 .menu {
-  padding: 100px 0 0 0;
+  padding: 100px 0;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-size: cover;
@@ -25,6 +25,10 @@
 .menu__cards {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
 }
 
 .card {
@@ -32,20 +36,27 @@
 }
 
 .card__title {
+  padding: 0 0 0 40px;
+  margin: 0 0 32px;
   font-family: "Inter";
   font-weight: bold;
   line-height: 30px;
 }
 
-.card__list-item {
-  margin: 16px 0 0 0;
-  display: flex;
-  font-family: "Noto Serif", "Times New Roman", serif;
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
-.card__list-item:first-of-type {
-  margin-top: 0;
+.card__list-item {
+  margin: 0 0 16px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card__list-divider {
+  border-bottom: 1px #000 solid;
+  flex-grow: 1;
 }
