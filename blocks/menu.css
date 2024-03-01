@@ -9,7 +9,6 @@
   max-width: 780px;
   margin: auto;
   text-align: center;
-  font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -18,7 +17,9 @@
 .menu__subtitle {
   max-width: 780px;
   margin: 24px auto 100px;
+  text-align: center;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -31,32 +32,6 @@
   margin: 0;
 }
 
-.card {
+.menu__card {
   width: 540px;
-}
-
-.card__title {
-  padding: 0 0 0 40px;
-  margin: 0 0 32px;
-  font-family: "Inter";
-  font-weight: bold;
-  line-height: 30px;
-}
-
-.card__list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.card__list-item {
-  margin: 0 0 16px;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card__list-divider {
-  border-bottom: 1px #000 solid;
-  flex-grow: 1;
 }

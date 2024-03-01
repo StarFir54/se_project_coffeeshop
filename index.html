@@ -15,10 +15,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="page">
@@ -58,16 +54,14 @@
           alt="Inside Coffeeshop"
         />
         <div class="header__footer">
-          <div class="header__paragraphs">
-            <div>
-              <p class="header__paragraph">Hours:</p>
-              <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
-              <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
-            </div>
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
+          <div class="header__footer-hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -142,7 +136,7 @@
                 required
               />
               <button class="form__button" type="submit">Book a table</button>
-              <label class="form__label">
+              <label class="form__label form__label_checkbox">
                 <input class="form__checkbox" type="checkbox" required />
                 I agree with the terms of use
               </label>
@@ -156,9 +150,9 @@
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <div class="card">
-              <p class="card__title">Filter</p>
-              <ul class="card_list">
+            <div class="menu__card">
+              <h2 class="card__title">Filter</h2>
+              <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)
                   <span class="card__list-divider"></span>
@@ -186,8 +180,8 @@
                 </li>
               </ul>
             </div>
-            <div class="card">
-              <p class="card__title">Espresso</p>
+            <div class="menu__card">
+              <h2 class="card__title">Espresso</h2>
               <ul class="card_list">
                 <li class="card__list-item">
                   Macchiato
@@ -211,42 +205,40 @@
                 </li>
               </ul>
             </div>
-            <div class="card">
-              <div class="card">
-                <p class="card__title">Baked Goods</p>
-                <ul class="card_list">
-                  <li class="card__list-item">
-                    Almond Croissant
-                    <span class="card__list-divider"></span>
-                    $2
-                  </li>
-                  <li class="card__list-item">
-                    Banana Bread
-                    <span class="card__list-divider"></span>
-                    $1.75
-                  </li>
-                  <li class="card__list-item">
-                    Key Lime Pie
-                    <span class="card__list-divider"></span>
-                    $3
-                  </li>
-                  <li class="card__list-item">
-                    Blue Velvet Cake
-                    <span class="card__list-divider"></span>
-                    $3.75
-                  </li>
-                  <li class="card__list-item">
-                    Web Cookie
-                    <span class="card__list-divider"></span>
-                    $2
-                  </li>
-                  <li class="card__list-item">
-                    Fresh Bug'uette
-                    <span class="card__list-divider"></span>
-                    $0.25
-                  </li>
-                </ul>
-              </div>
+            <div class="menu__card">
+              <h2 class="card__title">Baked Goods</h2>
+              <ul class="card_list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <span class="card__list-divider"></span>
+                  $3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug'uette
+                  <span class="card__list-divider"></span>
+                  $0.25
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -278,26 +270,24 @@
             alt="Triple Espresso Logo"
           />
           <div class="footer__social-media">
-            <p class="footer__social-heading">Social Media</p>
+            <h2 class="footer__social-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/facebook_white.svg"
-                  alt="Facebook Logo"
-                />
-                <a class="footer__social-link" href="https://www.facebook.com"
-                  >Facebook</a
+                <a class="footer__social-link" href="https://www.facebook.com">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />Facebook</a
                 >
               </li>
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/instagram_white.svg"
-                  alt="Instagram Logo"
-                />
-                <a class="footer__social-link" href="https://www.instagram.com"
-                  >Instagram</a
+                <a class="footer__social-link" href="https://www.instagram.com">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                  />Instagram</a
                 >
               </li>
             </ul>
