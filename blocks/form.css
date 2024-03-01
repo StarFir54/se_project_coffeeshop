@@ -15,6 +15,10 @@
   justify-content: center;
 }
 
+.form__label:last-of-type {
+  border-bottom: 0;
+}
+
 .form__input {
   border-radius: 4px;
   border-color: #838383;
@@ -36,6 +40,7 @@
   margin: 0 0 32px;
   border-radius: 4px;
   font-weight: 500;
+  border: none;
 }
 
 .form__button:hover {
